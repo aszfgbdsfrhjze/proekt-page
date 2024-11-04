@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+*{
+    color:  #3b3b3b;
+}
+body{
+   font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    
+}
+.all{
+    background: linear-gradient(#fdedd4, #f89b4e);
+}
+/*
+.cotocafe-history {
+
+    background-color:#fccd8d;/* цвет блока про историю
+    
+}*/
+.time-molod{
+padding: 10px;
+border-radius:20px ;
+    background-color:#fdc885; 
+}
+/* 
+.cotocafe-molod{
+
+    background-color:#fcd49d;цвет блока про молодеж
+    
+}*/
+.cotocafe-molod h1{
+
+    text-align: center;
+    
+}
+h1 .molod{
+text-align: center;
+
+}
+.molod-table{
+padding-left :0;
+margin: 0;
+
+}
+.molod-table td{
+
+    padding:0;
+    margin: 0;
+}
+/*
+.cotocafe-rus{
+
+    background-color:#fcc275;/* цвет блока про россию
+    
+}*/
+.time{
+display: inline-block;
+background: #ffaa49 ; /*цвет заливки  выделенного текста*/
+
+padding: 10px;
+border-radius:20px ;
+
+}
+.vrossii{
+    width: 600px;
+}
+.cotocafe-rus h1{
+
+    text-align: center;
+    
+}
+p .vrossii{
+text-wrap: wrap;
+
+}
+.vrossii-img{
+    padding: 50px 90px;
+}
+.place{
+    margin-top: 20px;
+
+background-repeat: no-repeat;
+   
+}
+.history{
+text-wrap: wrap;
+
+}
+h2.lapa{
+    padding: 10px 80px;
+    background: url(basket2-Photoroom.png);
+    background-size: contain;
+background-repeat: no-repeat
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    
+}
+p.create{
+    background-color:#FFF6D9;/*цвет блока внизу подпись*/
+    display: inline-block;
+    padding: 10px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.buy{
+background-color: #e77a32; /*цвет кнопки купить и карта*/
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+color: white;
+text-decoration:none;
+text-align: center;
+}/*
+a.buy:hover{
+
+    animation-duration: 0.2s;
+    animation-name: kupit;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+}
+
+@keyframes kupit{
+    0%{
+        text-decoration:solid  underline overline line-through; 
+
+    }
+    20%{
+        text-decoration:wavy  underline overline line-through ;
+
+    }
+    40%{
+        text-decoration:dotted underline overline line-through;
+
+    }
+    60%{
+        text-decoration:double  underline overline line-through;
+
+    }
+    80%{
+        text-decoration:dashed underline overline line-through ;
+
+    }
+
+    100%{
+        text-decoration:solid  underline overline line-through;
+    }
+}*/
+.cats {
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+  /*  background-color: #f9ac4f;*/
+    
+}
+.cats .container {
+    display: flex;
+    justify-content: space-between;
+    color: #fab762;
+}
+h2.stars{
+    text-align: center;
+}
+.cat1{
+    background-color: #f39030;
+    padding: 15px;
+    width: 313px;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+
+}
+.cat1:hover{
+    background-color: #f39030;   
+    animation-duration: 1.2s;
+  animation-name: vibor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
+}
+@keyframes vibor{
+    0%{
+        background-color: #f39030; 
+
+    }
+    60%{
+        background-color: #fdba62f5;;
+        transform: rotate(-0.3deg) scale(1.005); 
+
+    }
+
+    100%{
+        transform: rotate(0.2deg) scale(1.005);
+        background-color: #fdba62d5;
+    }
+}
+.cat1 .photo{
+    width:"200px";
+     height:"200px"
+}
+.cats a.buy{
+    margin: 20px auto;
+    width: 200px;
+    display: block;
+}
+img{
+ padding: 0;
+ margin: 0;
+}
+img .myach{
+position: absolute;
+
+}
+.slider{ 
+    background: url(img/Group9.png) no-repeat right top,/* #fccd8d */url(img/Group2.png) no-repeat left bottom;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+/*.buyBilets{
+    background-color: #FFF6D9;
+}*/
+h1.gallery {
+    text-align: center;
+}
+.sliderOne{
+width: 550px;
+height: 408px;
+margin: auto;
+display: block;
+border-radius: 15px;
+background-image: url(img/photo1.jpg);
+background-size: cover;
+background-position: center;
+}
+.arrowLeft{
+    padding-left: 10px;
+}
+.arrowRight{
+    padding-right: 10px;
+}
+img.slider2{
+    width: 166px;
+    height: 128px;
+    margin: auto;
+    display: block;
+    margin-top: 24px;
+    border-radius: 20px;
+    padding: 0 2px;
+
+    filter: brightness(50%);
+   }
+            .containerTwo{
+                display: flex;
+                width: auto;
+                margin: auto;
+            }
+input[type=radio].iinput{
+    display:none;
+    border-radius: 50px;
+
+}
+
+.hour1{
+    display: inline-block;
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+    background:#f6f6f6;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 5px;
+}
+input[type=radio].iinput:checked+label{
+    background-color: #ff732b;
+    border-radius: 5px;
+}          
+.typBileta{
+    display: inline-block;
+    
+}
+input[type=radio].typB:checked+label{
+display:block ;
+
+}
+
+
+/*.typD_open:not(:checked)+ul{
+    ul
+
+}*/
+
+/*.typD ul{
+    display: none;
+}
+.typD.open ul{
+display: block;
+}*/
+
+.typB:checked+label+ul{
+    display: block;
+}
+
+.typB:not(:checked)+label+ul{
+    display: none;
+}
+.typB:checked+label{
+    display: flex;
+}
+/*.price{
+    background-color: #FFf6d9;
+}*/
+.full .pokukaBileta{
+    background-color: #fff ;
+}
+.full{
+    background-color: #FFF6D9;
+}
+.sections{
+display: flex;
+justify-content: space-between;
+
+}
+.standart{
+    background-color:#e3decf;
+    margin: 15px 60px;
+    width: 313px;
+
+}
+.qw{
+    text-align: center;
+  padding:-1px 8px;
+}
+.vip{
+    background-color:#bda354;
+    margin: 15px 60px;
+    width: 313px;
+}
+.h1{
+    margin:auto;
+}
+.r{
+    text-align: center;
+}
